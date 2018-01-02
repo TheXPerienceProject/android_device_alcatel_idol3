@@ -16,11 +16,9 @@
 
 $(call inherit-product, device/alcatel/idol3/full_idol3.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common XPerience stuff.
+$(call inherit-product, vendor/xperience/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := idol3
-PRODUCT_NAME := lineage_idol3
+PRODUCT_NAME := xpe_idol3
 
-# Unofficial Build ID
-TARGET_UNOFFICIAL_BUILD_ID := CarlosArriaga
